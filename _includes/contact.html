@@ -24,39 +24,18 @@
             {% endunless %}
             <hr>
             <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless">
-                You Can find me here
+               扫描下方二维码立即开始游戏
             </h3>
             <div class="column is-full is-size-3">
-                {% unless site.facebook_username == %}
-                <a href="http://www.facebook.com/{{site.facebook_username}}" target="_blank" class="has-text-black"><img class="is-rounded" src="/assets/images/qq_qrcode.png" alt="家园二战QQ二维码"></a>
-                {% endunless %}
-                {% unless site.twitter_username == %}
-                <a href="https://twitter.com/intent/user?screen_name={{site.twitter_username}}" target="_blank" class="has-text-black"><i class="fab fa-twitter"></i></a>
-                {% endunless %}
-                {% unless site.instagram_username ==  %}
-                <a href="http://www.instagram.com/{{site.instagram_username}}" target="_blank" class="has-text-black"><i class="fab fa-instagram"></i></a>
-                {% endunless %}
-                {% unless site.linkedin_username ==  %}
-                <a href="http://www.linkedin.com/in/{{site.linkedin_username}}" target="_blank" class="has-text-black"><i class="fab fa-linkedin"></i></a>
-                {% endunless %}
-                {% unless site.github_username ==  %}
-                <a href="http://www.github.com/{{site.github_username}}" target="_blank" class="has-text-black"><i class="fab fa-github"></i></a>
-                {% endunless %}
-                {% unless site.youtube_channel_id ==  %}
-                <a href="http://www.youtube.com/channel/{{site.youtube_channel_id}}" target="_blank" class="has-text-black"><i class="fab fa-youtube"></i></a>
-                {% endunless %}
-                {% unless site.reddit_username ==  %}
-                <a href="http://www.reddit.com/u/{{site.reddit_username}}" target="_blank" class="has-text-black"><i class="fab fa-reddit"></i></a>
-                {% endunless %}
-                {% unless site.behance_username ==  %}
-                <a href="http://www.behance.com/{{site.behance_username}}" target="_blank" class="has-text-black"><i class="fab fa-behance"></i></a>
-                {% endunless %}
-                {% unless site.dribbble_username ==  %}
-                <a href="http://www.dribbble.com/{{site.dribbble_username}}" target="_blank" class="has-text-black"><i class="fab fa-dribbble"></i></a>
-                {% endunless %}
-                {% unless site.spotify_username ==  %}
-                <a href="http://open.spotify.com/user/{{site.spotify_username}}" target="_blank" class="has-text-black"><i class="fab fa-spotify"></i></a>
-                {% endunless %}
+                <div style="display: inline-block;width: 45%;">
+   <a href="/assets/images/qq_qrcode.png" target="_blank" class="has-text-black"><img class="is-rounded" src="/assets/images/qq_qrcode.png" alt="家园二战QQ二维码" style="max-width:150px;max-height: 150px;"><span style="font-size: 20px;">QQ扫码开玩</span></a>
+                </div>
+                <div style="display: inline-block;width: 45%;">
+                    
+   <a href="/assets/images/weixin_qrcode.png" target="_blank" class="has-text-black"><img class="is-rounded" src="/assets/images/weixin_qrcode.png" alt="之间二战微信二维码" style="max-width:150px;max-height: 150px;"><span style="font-size: 20px;">微信扫码开玩</span></a>
+                </div>
+            
+               <hr>
             </div>
         </div>
     </div>
