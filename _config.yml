@@ -11,14 +11,14 @@ title: 文字二战
 # Description of the Site
 description: 体验文字战争SLG游戏的乐趣
 # URL of Image of the Site
-site-image: /WhatATheme/assets/images/meta.jpg
+site-image: /assets/images/meta.jpg
 # Keywords of the Site
-site-keywords: Site, Template, Theme
+site-keywords: 家园二战, 文字二战, 风云二战,文字策略游戏,SLG,战争游戏
 # URL for the Image of custom Favicon
 favicon-url: 
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+heroimage: /assets/images/morning.jpg
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
