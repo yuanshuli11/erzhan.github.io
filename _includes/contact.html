@@ -1,12 +1,28 @@
 <section class="hero is-fullheight has-text-centered" id="contact">
     <div class="hero-body">
         <div class="container">
-            {% unless site.facebook_username == %}
-            <a id="contact-button" href="https://m.me/{{site.facebook_username}}"
+          
+            <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless">
+                You Can find me here
+            </h3>
+            <div class="column is-full is-size-3">
+                  <div style="display: inline-block;width: 45%;">
+   <a href="/assets/images/qq_qrcode.png" target="_blank" class="has-text-black"><img class="is-rounded" src="/assets/images/qq_qrcode.png" alt="家园二战QQ二维码" style="max-width:150px;max-height: 150px;"><span style="font-size: 20px;">QQ扫码开玩</span></a>
+                </div>
+                <div style="display: inline-block;width: 45%;">
+                    
+   <a href="/assets/images/weixin_qrcode.png" target="_blank" class="has-text-black"><img class="is-rounded" src="/assets/images/weixin_qrcode.png" alt="之间二战微信二维码" style="max-width:150px;max-height: 150px;"><span style="font-size: 20px;">微信扫码开玩</span></a>
+                </div>
+               <hr>
+            </div>
+
+ <a id="contact-button" href="https://hero-1251540064.cos.ap-beijing.myqcloud.com/yourwar.apk"
                 class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
                 target="_blank">
                 <i class="fab fa-facebook-messenger"></i>Ping me on Messenger
             </a>
+              {% unless site.facebook_username == %}
+           
             {% endunless %}
             {% unless site.email == %}
             <a id="contact-button" href="mailto:{{site.email}}"
@@ -23,20 +39,6 @@
             </a>
             {% endunless %}
             <hr>
-            <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless">
-               扫描下方二维码立即开始游戏
-            </h3>
-            <div class="column is-full is-size-3">
-                <div style="display: inline-block;width: 45%;">
-   <a href="/assets/images/qq_qrcode.png" target="_blank" class="has-text-black"><img class="is-rounded" src="/assets/images/qq_qrcode.png" alt="家园二战QQ二维码" style="max-width:150px;max-height: 150px;"><span style="font-size: 20px;">QQ扫码开玩</span></a>
-                </div>
-                <div style="display: inline-block;width: 45%;">
-                    
-   <a href="/assets/images/weixin_qrcode.png" target="_blank" class="has-text-black"><img class="is-rounded" src="/assets/images/weixin_qrcode.png" alt="之间二战微信二维码" style="max-width:150px;max-height: 150px;"><span style="font-size: 20px;">微信扫码开玩</span></a>
-                </div>
-            
-               <hr>
-            </div>
         </div>
     </div>
 </section>
